@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & Secrets (NEVER commit your Gemini API Key!)
+.env
+.streamlit/secrets.toml
+
+# Database & local dynamic files
+civicpulse.db
+civicpulse.db-journal
+uploads/
+*.sqlite3
+
+# OS metadata
+.DS_Store
+Thumbs.db
