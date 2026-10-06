@@ -43,7 +43,7 @@ def build_civic_map(
     m = folium.Map(
         location=list(center_coords),
         zoom_start=zoom_start,
-        tiles="CartoDB positron",
+        tiles="OpenStreetMap",
         control_scale=True
     )
 
